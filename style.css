@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* 🔥 Sidebar */
+.sidebar {
+  width: 320px;
+  padding: 20px;
+  background: rgba(30, 30, 47, 0.95);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background: linear-gradient(45deg, #4caf50, #2e7d32);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Route info */
+#routeInfo {
+  margin-top: 10px;
+  padding: 10px;
+  background: #2e2e40;
+  border-radius: 8px;
+}
+
+/* Legend */
+#legend {
+  margin-top: 15px;
+  background: #2e2e40;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.box {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.green { background: #00c853; }
+.orange { background: #ff9800; }
+.red { background: #ff1744; }
+.blue { background: #2962ff; }
+
+/* Map */
+#map {
+  flex: 1;
+}
